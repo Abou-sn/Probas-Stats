@@ -5,4 +5,7 @@ abline(h=moy)
 abline(h=binf,col='blue')
 abline(h=bsup,col='blue')
 
-which(X>=binf & X<=bsup)
+w = which(X>=binf & X<=bsup)
+length(w)
+
+point()
